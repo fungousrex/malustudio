@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+ <meta charset="utf-8"> <!-- sennò non ti piglia neanche gli accentati-->
+ <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- adatto pag a larghezza finestra del dispositivo, iniziando con zoom 100% -->
+	<!-- link CSS, prima boostrap, poi il mio: -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous">
+  <link rel="stylesheet" href="malustyle.css">
+  <!-- JS, prima di bootstrap e poi il mio, per dare precedenza al mio -- NB : c'è defer alla fine dell'open tag, che mi permette di metterlo qua, ma comunque farlo inizializzare a fine body come dovrebbe: -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js" integrity="sha384-WyOxWvTyr1QaMPfiPJSv76iReVthorl5uWlFtZPyK0IEB0hGzo9y5Bp9mYanr8Bu" crossorigin="anonymous" defer></script> 
+  <script src="NONLOSO.js" defer></script>
+	<title>pagina inesistente</title>
+</head>
+
+<body class="p-2" style="min-height: 100vh; display:flex; flex-direction: column">
+<!-- HEADER SITO (logo e nome)-->
+ <header>    
+    	<img src="img/logo.png" width="67" height = "58" alt="logo malustudio">
+  	 <div class="grigio" style="font-size: 13px">
+  	   	  <h1 class="corsivo">malustudio</h1>
+  	   		  <br>
+  	  &nbsp; Music Lab  &amp; studio musicale <br> &nbsp; &nbsp; elettronica e informatica audio 
+  	 </div>
+<!-- widget (data)-->
+  	 <aside class="right">	 
+  	  	<time class="grigio corsivo" style="font-size: 13px" id="data" ></time>
+  	 </aside>
+  	 
+ </header>
+     
+<!-- NAVBAR (select home/servizi)-->
+    <nav>
+        <a href="home.html" class="right">|&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; HOME  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| </a>
+        <a href="progetti.html" class="right">|&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; PROGETTI  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| </a>
+        <a href="servizi.html" class="centro">|&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; SERVIZI &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|</a>
+<!-- sottolineatura x riempire   **fatta nel CSS come border-bottom: 1px dotted grey nalla navbar
+     <span style="flex: 1; border-bottom: 1px dotted currentColor; margin-left: 8px;"></span>
+-->
+	</nav>
+
+<!-- nice orario green--> 
+  <p style="font-size: 12px; color: darkgreen; font-weight:normal; line-height: 1.1" >ORARI DI APERTURA:<br><b>&nbsp; malustudio:</b><span class="corsivo">&nbsp; martedì, giovedì - 8:00/12:00  &nbsp;&amp;  sabato - 14:00/20:00</span>
+  <br><b>&nbsp; malurepair:</b> <span class="corsivo">&nbsp; lunedì - 9:30/13:30 &nbsp;&amp; 16:30/20:30</span>&nbsp; 
+  <br>&nbsp; <span class="corsivo">(mercoledì, venerdì e domenica chiuso)</span><br><br></p>
+  			<br>
+ 
+<main>
+ <h2 class="corsivo"> Error: 404 not found
+			<br>
+	<a href="home.html"> &nbsp;  &nbsp;  &nbsp;  &nbsp; --> &nbsp; HOME &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; </a>
+			<br>
+			<br>
+ </h2>
+</main>
+			<br>
+
+<!-- fine della pagina (footer) per info varie--> 
+ <footer style="background-color: lightgrey; margin-top: auto"><h2 class="corsivo" style="color: black; font-size: 14px">CONTATTI E CREDITI</h2>
+ 
+   <div style="font-size: 13px; margin-left: 5px">malurepair:
+   			<br>
+    <h3 class="grigio" style="margin-left:20px; display: inline">Instagram: <a href="https://www.instagram.com/malurepair_so?utm_source=ig_web_button_share_sheet&gwpx=ZDNlZDc0MzIxNw==" class="corsivo">malurepair_so</a></h3>
+    <h3 class="grigio" style="margin-left:20px; display: inline">E-mail: <span class="corsivo">malurepair.so@outlook.com</span></h3>
+   </div>
+   
+   			<br>
+   			
+	<div style="font-size: 13px; margin-left: 5px;">malustudio:
+	   		<br>
+	 <h3 class="grigio" style="margin-left:20px; display: inline">Instagram: <a href="https://www.instagram.com/malustudio_so?utm_source=ig_web_button_share_sheet&dmpr=ZDNlZDc0MzIxNw==" class="corsivo">malustudio_so</a></h3>
+	 <h3 class="grigio" style="margin-left:20px; display: inline">Spotify: <a href="https://open.spotify.com/intl-it/artist/1MpqkMivHaUq0DWhHzM5Ay?si=qwL97Ss8T16j7DsOVBoWcA"  class="corsivo">chirps records</a></h3>
+	 <h3 class="grigio" style="margin-left:20px; display: inline">E-mail: <span class="corsivo">malustudio.so@outlook.com</span></h3>
+	</div>
+	
+			<br>
+			
+	<div style="font-size: 13px; margin-left: 5px;">màlu:
+   			<br>
+	 <h3 class="grigio" style="margin-left:20px; display: inline">Instagram: <a href="https://www.instagram.com/malu_is_here_?utm_source=ig_web_button_share_sheet&jplx=ZDNlZDc0MzIxNw==" class="corsivo">malu_is_here_</a></h3>
+	 <h3 class="grigio" style="margin-left:20px; display: inline">Spotify: <a href="https://open.spotify.com/intl-it/artist/1MpqkMivHaUq0DWhHzM5Ay?si=qwL97Ss8T16j7DsOVBoWcA" class="corsivo">malu</a></h3>
+	</div>
+	
+			<br>
+			
+ </footer>
+
+</body>
+
+
+
+</html>

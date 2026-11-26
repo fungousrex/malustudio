@@ -1,0 +1,95 @@
+h2 { /*paragrafi main delle pagine in marroncino*/
+  font-weight: normal;  /* Rimuove il grassetto predefinito dell'h2 */
+	color: brown;
+	font-size: 15px;
+	font: Helvetica;
+  display: inline;
+}
+
+h1 { /*simulazione dell'old <tt>*/
+	font-family: monospace;
+  font-weight: normal;  /* Rimuove il grassetto predefinito dell'h1 */
+	font-size: 28px;
+  display: inline; /*rendilo inline come l'old tt*/
+
+}
+
+h3 { /*side notes e chiusure finali*/
+	font: LosAngeles;
+	font-size: 12px;
+}
+
+a{
+	font: LosAngeles;
+	color: inherit; /* eredita colore da elem. contenitore(grigio) */
+	text-decoration: underline; 
+	text-decoration-style: dotted;
+	text-underline-offset: 3px;
+	font-size: 12px;
+	display: inline;
+}
+a:hover {
+	color: red;
+	cursor: pointer;
+	text-decoration: underline; /* riattiva per  switch al passaggio*/
+	text-decoration-style: solid;
+}
+
+.corsivo{
+	font-style: oblique;
+}
+
+.grigio{
+	color: grey;
+}
+
+header {
+	display: flex;
+}
+
+.right {
+	margin-left: auto;
+}
+
+
+.centro {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.occhio {
+    width: 18px;
+    height: 18px;
+    border: 1px solid grey;
+    border-radius: 50%;
+    background: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative; /* Riferimento per la pupilla */
+    overflow: hidden;   /* Nasconde la pupilla fuori dal cerchio */
+}
+
+.pupilla {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: grey;
+
+    position: absolute; /* Posizionamento rispetto all'occhio */
+    left: 50%;           /* Centro orizzontale */
+    top: 50%;            /* Centro verticale */
+    transform: translate(-50%, -50%); /*fixa la pupilla al centro allo start*/
+}
+
+nav {
+	display: flex;
+	border-bottom: 0.1px dotted grey;   /*LINEA TRATTEGGIATA FULL*/
+}
+
+nav a {
+	text-decoration: none;
+}
+
